@@ -67,6 +67,6 @@ echo "<b>Username:".$newuser[$x]."<br>Password:".$newpass[$x]."</b><br><br>";
 }
 
 CreateUser();
-// Call function 
+// Execute function 
 
 ?>
