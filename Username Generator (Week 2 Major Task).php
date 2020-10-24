@@ -6,7 +6,7 @@ echo "<h1>USERNAME AND PASSWORD GENERATOR BY CodedSAM</h1>";
 
 function CreateUser()
 {
-$names = array("Mike","Tolani","Chinedu","Yakubu","Josephine");
+$names = array("Mike","Chika","Bola","Yakubu","Josephine");
 //Username values
 
 $passwords = array("qwe","rty","uio","pas","dfg");
