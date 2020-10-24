@@ -56,6 +56,8 @@ foreach ($passwords as $index => $pass)
 $newpass[$index]=$pass.RandNum3().$pass;
 }
 
+//Generate password from headers
+
 $arrlength = count($newuser);
 
 for($x = 0; $x < $arrlength; $x++) 
