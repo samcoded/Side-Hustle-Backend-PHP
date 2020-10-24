@@ -45,7 +45,7 @@ $newuser[$index]=$user;
 if (strlen($user) > 8) 
 //Username greater than 8
 {
-echo "<font color='red'>Error</font><b>".$user."</b> ".$errormsg."<br><br>";
+echo "<font color='red'>Error</font> <b>".$user."</b> ".$errormsg."<br><br>";
 //Display error
 }
 
