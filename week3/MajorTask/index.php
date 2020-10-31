@@ -22,7 +22,7 @@ include('process.php');
 
 <html>
 <head>
-	<title>PROFILE DETAILS UPLOAD | SideHustle | CodedSAMS </title>
+	<title>PROFILE DETAILS UPLOAD | SideHustle | CodedSAM </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
