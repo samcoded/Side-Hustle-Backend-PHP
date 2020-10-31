@@ -126,7 +126,7 @@ unset($_SESSION["upload"]);
 		}?>
 		<div class="info">
 		Allowed video file extension: .jpg, .jpeg, .png, .gif <Br>
-		Image size must not exceed 10mb
+		Image size must not exceed 5mb
 </div>
 		<input type="file" name="pic" /></div>
 	<div class="input-group">
