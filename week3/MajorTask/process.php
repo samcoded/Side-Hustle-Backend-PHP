@@ -11,8 +11,8 @@
 	
     // Allowed file extension for profile photo
 	$allowedpicext = array("jpg", "png", "jpeg", "gif", "JPG", "JPEG", "PNG", "GIF");
-	//maximum allowed filesize for profile photo
-	$maxpicsize = 10 * 1024 * 1024;
+	//maximum allowed filesize for profile photo 5mb
+	$maxpicsize = 5 * 1024 * 1024;
 
 	//For Insert
 	if (isset($_POST['save'])) {
@@ -32,7 +32,7 @@
 		
 			if (($_FILES['pic']['size'] > $maxpicsize )){ 
 				//allowed filesize error
-				$_SESSION['upload']='<div class="infored">Error while uploading profile picture:: Profile Image size exceeds 10mb</b></div>'; }
+				$_SESSION['upload']='<div class="infored">Error while uploading profile picture: Profile Image size exceeds 5mb</b></div>'; }
 			else {
 			if(in_array($file_extension, $allowedpicext)){
 			if(move_uploaded_file($_FILES['pic']['tmp_name'], "profilepics/".$profilepicname)){
@@ -71,7 +71,7 @@
 		
 			if (($_FILES['pic']['size'] > $maxpicsize )){ 
 				//allowed filesize error
-				$_SESSION['upload']='<div class="infored">Error while uploading profile picture:: Profile Image size exceeds 10mb</b></div>'; }
+				$_SESSION['upload']='<div class="infored">Error while uploading profile picture: Profile Image size exceeds 5mb</b></div>'; }
 			else {
 			if(in_array($file_extension, $allowedpicext)){
 			if(move_uploaded_file($_FILES['pic']['tmp_name'], "profilepics/".$profilepicname)){
